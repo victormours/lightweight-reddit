@@ -2,4 +2,6 @@
 require "rack"
 require 'chaplin'
 
-run Chaplin::Server.new('pace-api.herokuapp.com')
+chaplin_server = Chaplin.new(Dir.pwd).server
+
+Rack::Server.start(app: chaplin_server)

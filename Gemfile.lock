@@ -1,9 +1,10 @@
 GIT
   remote: git://github.com/victormours/chaplin.git
-  revision: e94545426b08047153b453f930d28810a8a261c9
+  revision: 19630c0cea5ae4aea0307892ce253e2755404c68
   specs:
     chaplin (0.0.0)
       faraday
+      mustache
       rack
       sinatra
 
@@ -13,6 +14,7 @@ GEM
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
     multipart-post (2.0.0)
+    mustache (0.99.7)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
