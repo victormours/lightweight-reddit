@@ -10,11 +10,13 @@
   <p>
     <img src={{thumbnail}} width="70" height="70" onerror='this.style.display = "none"'>
     {{score}}
-    <a href={{url}}>{{title}}</a>
-  </p>
-  <p><a href="http://www.reddit.com/{{permalink}}">{{num_comments}} comments</a></p>
+    <a href={{url}}>{{title}}</a>({{domain}})
+    </p>
+    <p>in {{subreddit}}</p>
+    <p><a href="http://www.reddit.com/{{permalink}}">{{num_comments}} comments</a></p>
 </li>
 {{/data}}
+
 {{/listings.data.children}}
 </ol>
 
