@@ -2,6 +2,4 @@
 require "rack"
 require 'chaplin'
 
-chaplin_server = Chaplin.new(Dir.pwd).server
-
-Rack::Server.start(app: chaplin_server)
+run Chaplin.new(Dir.pwd).server
