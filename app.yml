@@ -1,0 +1,10 @@
+routes:
+  GET /: hot.html
+  GET /new: new.html
+
+pages:
+
+  hot.html:
+    listings: GET /hot.json
+  new.html:
+    listings: GET /new.json

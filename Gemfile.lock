@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/victormours/chaplin.git
-  revision: 19630c0cea5ae4aea0307892ce253e2755404c68
+  revision: 6e79910dcf393d56ba9daf0a48bd3e52a4c7de5f
   specs:
     chaplin (0.0.0)
       faraday
@@ -11,18 +11,18 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    faraday (0.9.0)
+    faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
     multipart-post (2.0.0)
-    mustache (0.99.7)
-    rack (1.5.2)
+    mustache (1.0.2)
+    rack (1.6.4)
     rack-protection (1.5.3)
       rack
-    sinatra (1.4.5)
+    sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
-      tilt (~> 1.3, >= 1.3.4)
-    tilt (1.4.1)
+      tilt (>= 1.3, < 3)
+    tilt (2.0.1)
 
 PLATFORMS
   ruby
